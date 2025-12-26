@@ -1,0 +1,238 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "username/MoonGeo"
+
+// Values
+pub const AV_HIGH : Double = 1.0
+
+pub const AV_LOW : Double = 0.1
+
+pub const AV_MEDIUM : Double = 0.5
+
+pub const CM_TO_M : Double = 0.01
+
+pub const CV_CLAY : Double = 1.0e-8
+
+pub const CV_SAND : Double = 1.0e-6
+
+pub const CV_SILT : Double = 1.0e-7
+
+pub const C_CLAY : Double = 30.0
+
+pub const C_HARD_CLAY : Double = 50.0
+
+pub const C_SOFT_CLAY : Double = 10.0
+
+pub const DEG_TO_RAD : Double = 0.017453292519943295
+
+pub const EPSILON : Double = 1.0e-10
+
+pub const ES_HIGH : Double = 2.0
+
+pub const ES_LOW : Double = 15.0
+
+pub const ES_MEDIUM : Double = 5.0
+
+pub const FS_IMPORTANT : Double = 1.5
+
+pub const FS_NORMAL : Double = 1.3
+
+pub const FS_TEMPORARY : Double = 1.2
+
+pub const G : Double = 9.80665
+
+pub const GAMMA_CLAY : Double = 18.0
+
+pub const GAMMA_SAND : Double = 19.0
+
+pub const GAMMA_SAT : Double = 20.0
+
+pub const GAMMA_SUB : Double = 10.0
+
+pub const GAMMA_WATER : Double = 9.81
+
+pub const K0_NORMAL : Double = 0.5
+
+pub const K0_OVERCONSOLIDATED : Double = 1.0
+
+pub const KPA_TO_PA : Double = 1000.0
+
+pub const K_CLAY : Double = 1.0e-9
+
+pub const K_COARSE_SAND : Double = 1.0e-3
+
+pub const K_FINE_SAND : Double = 1.0e-5
+
+pub const K_GRAVEL : Double = 1.0e-2
+
+pub const K_MEDIUM_SAND : Double = 1.0e-4
+
+pub const K_SILT : Double = 1.0e-6
+
+pub const MPA_TO_PA : Double = 1000000.0
+
+pub const M_TO_CM : Double = 100.0
+
+pub const NC_PHI0 : Double = 5.7
+
+pub const NGAMMA_PHI0 : Double = 0.0
+
+pub const NQ_PHI0 : Double = 1.0
+
+pub const PHI_CLAY : Double = 15.0
+
+pub const PHI_DENSE_SAND : Double = 40.0
+
+pub const PHI_HARD_CLAY : Double = 25.0
+
+pub const PHI_LOOSE_SAND : Double = 30.0
+
+pub const PHI_MEDIUM_SAND : Double = 35.0
+
+pub const PHI_SOFT_CLAY : Double = 0.0
+
+pub const PI : Double = 3.141592653589793
+
+pub const RAD_TO_DEG : Double = 57.29577951308232
+
+pub const RHO_WATER : Double = 1000.0
+
+pub fn abs(Double) -> Double
+
+pub fn additional_stress_center(Double, Double) -> Double
+
+pub fn approx_equal(Double, Double, Double) -> Bool
+
+pub fn at_rest_coefficient(Double) -> Double
+
+pub fn at_rest_pressure(Double, Double, Double) -> Double
+
+pub fn bearing_capacity_design(Double, Double) -> Double
+
+pub fn bishop_safety_factor_iteration(Double, Double, Array[(Double, Double, Double)], Double) -> Double
+
+pub fn clamp(Double, Double, Double) -> Double
+
+pub fn consolidation_coefficient(Double, Double, Double) -> Double
+
+pub fn consolidation_degree(Double) -> Double
+
+pub fn consolidation_settlement_final(Double, Double, Double) -> Double
+
+pub fn consolidation_settlement_time(Double, Double) -> Double
+
+pub fn cos_approx(Double) -> Double
+
+pub fn coulomb_active_coefficient(Double, Double, Double, Double) -> Double
+
+pub fn coulomb_active_force(Double, Double, Double) -> Double
+
+pub fn critical_hydraulic_gradient(Double, Double) -> Double
+
+pub fn cube(Double) -> Double
+
+pub fn darcy_flow_rate(Double, Double, Double) -> Double
+
+pub fn darcy_velocity(Double, Double) -> Double
+
+pub fn deg_to_rad(Double) -> Double
+
+pub fn degree_of_saturation(Double, Double) -> Double
+
+pub fn dry_density(Double, Double) -> Double
+
+pub fn earth_pressure_force_position_with_surcharge(Double, Double, Double) -> Double
+
+pub fn earth_pressure_type(Double, Double, Double, Double) -> String
+
+pub fn effective_stress(Double, Double) -> Double
+
+pub fn exp_approx(Double) -> Double
+
+pub fn hansen_nc(Double) -> Double
+
+pub fn hansen_ngamma(Double) -> Double
+
+pub fn hansen_nq(Double) -> Double
+
+pub fn hydraulic_gradient(Double, Double) -> Double
+
+pub fn is_piping(Double, Double) -> Bool
+
+pub fn ln_approx(Double) -> Double
+
+pub fn max(Double, Double) -> Double
+
+pub fn min(Double, Double) -> Double
+
+pub fn permeability_from_d10(Double, Double) -> Double
+
+pub fn pore_water_pressure(Double, Double) -> Double
+
+pub fn porosity(Double) -> Double
+
+pub fn rad_to_deg(Double) -> Double
+
+pub fn rankine_active_coefficient(Double) -> Double
+
+pub fn rankine_active_force(Double, Double, Double) -> Double
+
+pub fn rankine_active_force_position(Double) -> Double
+
+pub fn rankine_active_pressure(Double, Double, Double) -> Double
+
+pub fn rankine_active_pressure_cohesive(Double, Double, Double, Double) -> Double
+
+pub fn rankine_active_pressure_surcharge(Double, Double, Double, Double) -> Double
+
+pub fn rankine_passive_coefficient(Double) -> Double
+
+pub fn rankine_passive_pressure(Double, Double, Double) -> Double
+
+pub fn rankine_passive_pressure_cohesive(Double, Double, Double, Double) -> Double
+
+pub fn safe_div(Double, Double, Double) -> Double
+
+pub fn saturated_density(Double, Double, Double) -> Double
+
+pub fn settlement_layer(Double, Double, Double, Double) -> Double
+
+pub fn settlement_layer_es(Double, Double, Double) -> Double
+
+pub fn sin_approx(Double) -> Double
+
+pub fn square(Double) -> Double
+
+pub fn stress_influence_coefficient_simplified(Double, Double) -> Double
+
+pub fn submerged_unit_weight(Double, Double) -> Double
+
+pub fn swedish_circle_safety_factor(Double, Double, Array[(Double, Double, Double)]) -> Double
+
+pub fn tan_approx(Double) -> Double
+
+pub fn terzaghi_bearing_capacity(Double, Double, Double, Double, Double) -> Double
+
+pub fn terzaghi_bearing_capacity_shape(Double, Double, Double, Double, Double, Double, Double, Double) -> Double
+
+pub fn terzaghi_nc(Double) -> Double
+
+pub fn terzaghi_ngamma(Double) -> Double
+
+pub fn terzaghi_nq(Double) -> Double
+
+pub fn time_factor(Double, Double, Double) -> Double
+
+pub fn total_settlement(Array[Double]) -> Double
+
+pub fn total_stress(Double, Double) -> Double
+
+pub fn void_ratio(Double) -> Double
+
+// Errors
+
+// Types and methods
+
+// Type aliases
+
+// Traits
+
