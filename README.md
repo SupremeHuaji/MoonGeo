@@ -274,5 +274,4 @@ The current version (0.1.0) implements **core geotechnical engineering calculati
 * Effective stress analysis
 * Mathematical utilities and tools
 
-The library is actively developed and aims to provide comprehensive coverage of geotechnical engineering calculations while being optimized for MoonBit.#   M o o n G e o  
- 
+The library is actively developed and aims to provide comprehensive coverage of geotechnical engineering calculations while being optimized for MoonBit.
